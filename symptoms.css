@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(208, 238, 243);
+}
+.symptoms{
+    display: flex;
+ 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.symptoms .content{
+    flex:1 1 40rem;
+}
+
+.symptoms .image{
+    flex:1 1 40rem;
+    text-align: center;
+}
+
+.symptoms .image img{
+    width:50%;
+}
+
+.symptoms .content p{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 0);
+    padding:1rem 0;
+}
+
+li{
+    font-size: 20px;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+font-weight: bold;
+}
+h3{
+    font-size: 27px;
+    font-weight: 1400;
+}
